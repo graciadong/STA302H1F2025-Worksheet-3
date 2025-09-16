@@ -90,11 +90,11 @@ The variables we will use today are
 \end{itemize}
 We will use all variables except BMI as predictors. We will also keep track of the Survey Year to make sure we are only looking at 2009-2010, and the ID variable that gives each unique individual a numerical identifier.
   
-To access the data, run the code chunk below:
+To access the data, run the code chunk below. If you have never used the NHANES dataset before, you will need to first install the package. Please ensure that the code needed to install the package is NOT in your file submission to MarkUs as trying to install a package on MarkUs will cause all your tests to fail. 
 
 ```{r}
 # accesses the package where the data lives
-#install.packages("NHANES")
+#install.packages("NHANES") #run if you have not yet installed the NHANES package before #COMMENT OUT THIS LINE BEFORE SUBMISSION. Trying to install a package on MarkUs will make all your tests fail. 
 library(NHANES)
 
 # loads the dataset into R
